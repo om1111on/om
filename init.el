@@ -77,28 +77,28 @@
 (setq scroll-conservatively 999)
 (setq auth-sources '("~/.authinfo.gpg" "~/.authinfo" "~/.netrc"))
 
-(setq erc-nick "rongxianyue"
-      erc-user-full-name "rongxianyue"
+(setq erc-nick "om1111on"
+      erc-user-full-name "om1111on"
       erc-prompt-for-password 1)
 ;(setq erc-autojoin-channels-alist "#emacs")
 (setq erc-ignore-list nil)
 (setq erc-hide-list
       '("JOIN" "PART" "QUIT" ))
 
-(setq user-full-name "rongxianyue")
-(setq user-mail-address "@")
+(setq user-full-name "om1111on")
+(setq user-mail-address "om1111on@163.com")
 (load-library "smtpmail")
 (require 'smtpmail)
 (setq message-send-mail-function 'smtpmail-send-it)
 (setq send-mail-function 'smtpmail-send-it)
 (setq smtpmail-local-domain "R")
-(setq smtpmail-smtp-server "smtp..com")
-(setq smtpmail-smtp-user "rongxianyue")
+(setq smtpmail-smtp-server "smtp.163.com")
+(setq smtpmail-smtp-user "om1111on")
 (setq smtpmail-smtp-service 465 )
 (setq smtpmail-stream-type 'ssl)
 (setq rmail-file-name "~/.emacs.d/RMAIL")
 (setq rmail-movemail-program "/usr/bin/movemail.mailutils")
-(setenv "MAILHOST" "pop..com")
-(setq rmail-primary-inbox-list '("po:rongxianyue")
+(setenv "MAILHOST" "pop.163.com")
+(setq rmail-primary-inbox-list '("po:om1111on")
       rmail-pop-password-required t)
 (setq rmail-remote-password "")
