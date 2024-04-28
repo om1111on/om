@@ -101,7 +101,7 @@ git config --global user.name 'om1111on'
 git config --global user.email 'om1111on@163.com'
 git config --global core.editor emacs
 git remote -v
-git remote add r git@github.com:om1111on/om.git
+git remote add om git@github.com:om1111on/om.git
 gpg --full-generate-key
 gpg --list-secret-keys --keyid-format=long
 gpg --armor --export  269A2414C004BBD9
