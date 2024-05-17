@@ -10,7 +10,7 @@ synclient MinSpeed=3
 synclient MaxSpeed=4
 
 syndaemon -i 1 -t -d
-xrandr --output eDP-1 --mode "1368x768" --brightness 0.3
+xrandr --output eDP-1 --mode "1368x768" --brightness 0.2
 xset dpms 0 0 0
 xset s off
 ibus-daemon --xim -d &
