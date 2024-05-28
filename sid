@@ -86,6 +86,7 @@ sudo dpkg --add-architecture i386
 ~/.config/ibus/rime/build/luna_pinyin_simp.schema.yaml
 im-switch -s ibus
 /usr/bin/setxkbmap -option "ctrl:swapcaps"
+https://raw.hellogithub.com/hosts
 
 qterminal rate
 60 cat /proc/sys/vm/swappiness
