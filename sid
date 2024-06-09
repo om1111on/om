@@ -80,7 +80,6 @@ amixer sset Master unmute
 /dev/nvme0n1p3 /c              ntfs    defaults,umask=007,gid=46 0       0
 echo $XDG_SESSION_TYPE
 http://vscode.cdn.azure.cn
-sudo dpkg --add-architecture i386
 ~/.emacs.d/rime/build/luna_pinyin.schema.yaml reset: 1
 ~/.config/ibus/rime/build/luna_pinyin_simp.schema.yaml
 im-switch -s ibus
