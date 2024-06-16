@@ -85,6 +85,7 @@ http://vscode.cdn.azure.cn
 im-switch -s ibus
 /usr/bin/setxkbmap -option "ctrl:swapcaps"
 https://raw.hellogithub.com/hosts
+ddcyuknaaoadbijh
 
 qterminal rate
 60 cat /proc/sys/vm/swappiness
