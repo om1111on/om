@@ -25,8 +25,8 @@
 (global-set-key (kbd "M-.") 'next-buffer)
 
 (setq package-archives
-      '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-       ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+      '(("gnu"   . "http://mirrors.ustc.edu.cn/elpa/gnu/")
+       ("melpa" . "http://mirrors.ustc.edu.cn/elpa/melpa/")))
 (require 'package)
 (package-initialize)
 ;(desktop-save-mode 1)
