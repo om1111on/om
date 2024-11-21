@@ -54,8 +54,11 @@
 (setq company-idle-delay 0.01)
 
 (custom-set-faces
- '(default ((t (:family "Noto Sans Mono" :foundry "GOOG" :slant normal
-			:weight normal :height 97 :width normal)))))
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Consolas" :foundry "MS  " :slant normal :weight regular :height 113 :width normal)))))
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 (setq echo-keystrokes 0.01)
@@ -63,7 +66,7 @@
 (windmove-default-keybindings)
 (winner-mode 1)
 (add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
-(setq read-quoted-char-radix 10) 
+(setq read-quoted-char-radix 10)
 (setq resize-mini-windows t)
 ;(setq enable-recursive-minibuffers t)
 (setq completion-cycle-threshold 5)
@@ -76,14 +79,6 @@
 (setq scroll-preserve-screen-position t)
 (setq scroll-conservatively 999)
 (setq auth-sources '("~/.authinfo.gpg" "~/.authinfo" "~/.netrc"))
-
-(setq erc-nick "om1111on"
-      erc-user-full-name "om1111on"
-      erc-prompt-for-password 1)
-;(setq erc-autojoin-channels-alist "#emacs")
-(setq erc-ignore-list nil)
-(setq erc-hide-list
-      '("JOIN" "PART" "QUIT" ))
 
 (setq user-full-name "om1111on")
 (setq user-mail-address "om1111on@163.com")
@@ -102,3 +97,13 @@
 (setq rmail-primary-inbox-list '("po:om1111on")
       rmail-pop-password-required t)
 (setq rmail-remote-password "")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(display-battery-mode t)
+ '(display-time-mode t)
+ '(global-display-line-numbers-mode t)
+ '(tool-bar-mode nil))
